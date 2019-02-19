@@ -36,7 +36,7 @@ export default class Game {
     async initializeGame() {
         try {
             const game = await gameService.findGame({_id:this._id});
-            this._counter = game.counter;
+            this.counter = game.counter;
             this.games = game.games;
             this.wins = game.wins;
         }catch(e) {
