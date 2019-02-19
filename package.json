@@ -1,0 +1,21 @@
+{
+  "name": "nappipeli-server",
+  "version": "1.0.0",
+  "description": "Nappipelin server Vincit",
+  "main": "start.js",
+  "author": "Patrik Torn",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon start.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "esm": "^3.2.4",
+    "express": "^4.16.4",
+    "http": "^0.0.0",
+    "mongoose": "^5.4.12",
+    "nodemon": "^1.18.10",
+    "socket.io": "^2.2.0"
+  }
+}
